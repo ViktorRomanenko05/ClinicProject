@@ -1,0 +1,156 @@
+###############################################################################
+# JetBrains / IntelliJ
+# Ссылки: https://intellij-support.jetbrains.com/hc/en-us/articles/206544839
+###############################################################################
+# User-specific и чувствительные данные
+.idea/**/workspace.xml
+.idea/**/tasks.xml
+.idea/**/usage.statistics.xml
+.idea/**/dictionaries
+.idea/**/shelf
+.idea/**/dataSources/
+.idea/**/dataSources.ids
+.idea/**/dataSources.local.xml
+.idea/**/sqlDataSources.xml
+.idea/**/dynamic.xml
+.idea/**/uiDesigner.xml
+.idea/**/dbnavigator.xml
+.idea/**/aws.xml
+.idea/**/contentModel.xml
+.idea/replstate.xml
+.idea/sonarlint/
+.idea/httpRequests
+
+# Разное
+.idea_modules/
+*.iws
+
+# Файлы сборок IntelliJ
+out/
+
+# Gradle & Maven auto-import (сгенерированные модули, которые пересоздаются)
+.idea/**/gradle.xml
+.idea/**/libraries
+# (Раскомментируйте, если используете автоконфигурацию и хотите исключить модули)
+.idea/artifacts
+.idea/compiler.xml
+.idea/jarRepositories.xml
+.idea/modules.xml
+.idea/*.iml
+.idea/modules
+*.iml
+*.ipr
+
+# CMake
+cmake-build-*/
+
+# Mongo Explorer plugin
+.idea/**/mongoSettings.xml
+
+# Crashlytics plugin (для Android Studio и IntelliJ)
+com_crashlytics_export_strings.xml
+crashlytics.properties
+crashlytics-build.properties
+fabric.properties
+
+# Android Studio
+.idea/caches/build_file_checksums.ser
+
+###############################################################################
+# Java
+###############################################################################
+# Скомпилированные файлы классов
+*.class
+
+# Логи
+*.log
+
+# Различные временные и системные файлы
+*.ctxt
+.mtj.tmp/
+
+# Пакетированные файлы
+*.jar
+*.war
+*.nar
+*.ear
+*.zip
+*.tar.gz
+*.rar
+
+# Логи аварий виртуальной машины
+hs_err_pid*
+replay_pid*
+
+###############################################################################
+# Maven
+###############################################################################
+target/
+pom.xml.tag
+pom.xml.releaseBackup
+pom.xml.versionsBackup
+pom.xml.next
+release.properties
+dependency-reduced-pom.xml
+buildNumber.properties
+
+# Maven wrapper
+.mvn/timing.properties
+.mvn/wrapper/maven-wrapper.jar
+
+###############################################################################
+# Gradle
+###############################################################################
+# (Если используете только Maven, можно не включать)
+#.gradle/
+#build/
+#!gradle-wrapper.jar
+
+###############################################################################
+# Eclipse
+###############################################################################
+.project
+.classpath
+
+###############################################################################
+# Sonar / SonarQube / SonarLint
+###############################################################################
+/.sonar/
+.sonar/
+.sonarqube/
+.scannerwork/
+.sonarlint/
+
+###############################################################################
+# Sublime Text
+###############################################################################
+*.sublime-workspace
+*.sublime-project
+*.sublime-settings
+
+###############################################################################
+# Прочее и резервные файлы
+###############################################################################
+# Резервные и временные файлы
+*.orig
+*.BACKUP.*
+*.BASE.*
+*.LOCAL.*
+*.REMOTE.*
+*_BACKUP_*.txt
+*_BASE_*.txt
+*_LOCAL_*.txt
+*_REMOTE_*.txt
+
+# Каталог с конфигурационными файлами (если не требуется хранить в репозитории)
+config/*
+
+# Специфичный лог-файл
+mm.log
+
+# Apex-скрипты: игнорировать всё, кроме файлов с расширением .cls
+apex-scripts/*
+!apex-scripts/*.cls
+
+# JIRA plugin
+atlassian-ide-plugin.xml
